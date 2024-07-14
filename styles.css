@@ -1,0 +1,141 @@
+/* General Styles */
+h1 {
+    text-align: center;
+    color: #def109;
+    font-size: xx-large;
+}
+h2 {
+    text-align: center;
+    color: #def109;
+    font-size: xx-large;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.simplilearn.com/ice9/free_resources_article_thumb/IT_Business_Analyst.jpg');
+    background-size: cover; /* Cover the entire background */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Task Container */
+#tasks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center the tasks */
+}
+
+/* Task Card */
+.project {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: space-between; /* Distribute space evenly */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: calc(50% - 20px); /* Two cards in a row */
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+/* Progress Bars */
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 15px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    margin: 0 2px;
+}
+
+.progress-filled {
+    background-color: #75e171;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto; /* Pushes the button container to the bottom */
+}
+
+/* Buttons */
+.edit, .delete {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    width: 10%; /* Ensure both buttons fit */
+    transition: background-color 0.3s;
+}
+
+.edit:hover {
+    background-color: #0056b3;
+}
+
+.delete {
+    background-color: #dc3545;
+}
+
+.delete:hover {
+    background-color: #c82333;
+}
+
+/* Form Styles */
+#taskForm {
+    margin: 0 auto 20px; /* Center the form */
+    background-color: #e4f0f5;
+    width: 50%; /* Centered width */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#taskForm input, 
+#taskForm select, 
+#taskForm textarea {
+    width: calc(100% - 22px); /* Fit within the blue part */
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+#taskForm button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Full width for the button */
+}
+
+#taskForm button:hover {
+    background-color: #218838;
+}
+
+/* Filter Styles */
+#filterPriority {
+    margin: 0 auto 20px; /* Center the filter */
+    width: 15%; /* Fit within the blue part */
+    height: 2rem;
+    background-color: #02023e;
+    font-size: large;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box; /* Include padding in width */
+}

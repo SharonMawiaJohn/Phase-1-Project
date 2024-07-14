@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>⋆｡°✩ QA Nexus ⋆｡°✩</h1>
+    <h2>⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆</h2>
+    <form id="taskForm">
+        <input id="taskTitle" placeholder="Title" required />
+        <input id="taskDescription" placeholder="Description" required />
+        
+        <label for="taskStatus"></label>
+        <select id="taskStatus">
+            <option value="Task Added">Task Added</option>
+            <option value="Requirement Analysis">Requirement Analysis</option>
+            <option value="Test Planning">Test Planning</option>
+            <option value="Test Case Development">Test Case Development</option>
+            <option value="Test Environment Setup">Test Environment Setup</option>
+            <option value="Test Execution">Test Execution</option>
+            <option value="Completed">Completed</option>
+        </select>
+        
+        <input type="date" id="taskDueDate" required />
+        <button type="submit">Add Task</button>
+    </form>
+
+    <select id="filterPriority">
+        <option value="All">All</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+
+    <div id="tasks"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
