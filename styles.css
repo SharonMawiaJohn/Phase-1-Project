@@ -1,12 +1,11 @@
 /* General Styles */
 h1 {
     text-align: center;
-    color: #def109;
+    color: #fff;
     font-size: xx-large;
 }
 h2 {
     text-align: center;
-    color: #def109;
     font-size: xx-large;
 }
 body {
@@ -131,10 +130,11 @@ body {
 /* Filter Styles */
 #filterPriority {
     margin: 0 auto 20px; /* Center the filter */
-    width: 15%; /* Fit within the blue part */
+    width: 50%; /* Fit within the blue part */
     height: 2rem;
-    background-color: #02023e;
+    background-color: #007bff;
     font-size: large;
+    display: block;
     color: #fff;
     text-align: center;
     box-sizing: border-box; /* Include padding in width */

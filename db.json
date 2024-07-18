@@ -1,43 +1,36 @@
 {
-  "projects": [
-    {
-      "id": 1,
-      "name": "Test Sentinel Project 1",
-      "description": "Description of Test Sentinel Project 1"
-    }
-  ],
   "tasks": [
-    {
-      "title": "Eazzy chama",
-      "description": "No matter",
-      "status": "Test Case Development",
-      "dueDate": "2024-07-31",
-      "priority": "Medium",
-      "id": "acff"
-    },
     {
       "title": "Disbursements",
       "description": "Mpesa integration",
-      "status": "Task Added",
-      "dueDate": "2024-07-17",
+      "status": "Requirement Analysis",
+      "dueDate": "2024-07-20",
       "priority": "High",
-      "id": "52d5"
+      "id": "ba4f"
     },
     {
-      "title": "kathy",
-      "description": "uhytcvdd",
-      "status": "Test Execution",
-      "dueDate": "2024-07-31",
-      "priority": "Medium",
-      "id": "3cc7"
-    },
-    {
-      "title": "Eazzy chama",
-      "description": "uhytcvdd",
+      "title": "Disbursements",
+      "description": "Repeater USSD",
       "status": "Test Planning",
-      "dueDate": "2024-08-23",
+      "dueDate": "2024-08-09",
+      "priority": "Medium",
+      "id": "06ea"
+    },
+    {
+      "title": "Collections",
+      "description": "Payments",
+      "status": "Task Added",
+      "dueDate": "2024-08-28",
       "priority": "Low",
-      "id": "6a57"
+      "id": "b14a"
+    },
+    {
+      "id": "b645",
+      "title": "Eazzy App",
+      "description": "Paybill",
+      "status": "Task Added",
+      "dueDate": "2024-08-10",
+      "priority": "Medium"
     }
   ]
 }

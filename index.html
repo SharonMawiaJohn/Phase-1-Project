@@ -7,13 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>⋆｡°✩ QA Nexus ⋆｡°✩</h1>
-    <h2>⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆</h2>
+    <h1>⋆｡°✩ QA NEXUS ⋆｡°✩</h1>
+    <h2>👩🏾‍💻✨💫⭐️</h2>
     <form id="taskForm">
         <input id="taskTitle" placeholder="Title" required />
-        <input id="taskDescription" placeholder="Description" required />
-        
-        <label for="taskStatus"></label>
+        <input id="taskDescription" placeholder="Description" required />        
         <select id="taskStatus">
             <option value="Task Added">Task Added</option>
             <option value="Requirement Analysis">Requirement Analysis</option>
@@ -23,7 +21,8 @@
             <option value="Test Execution">Test Execution</option>
             <option value="Completed">Completed</option>
         </select>
-        
+        <p></p> <!--creating space between the task status and due date-->
+        <label for="date">Due date:</label>
         <input type="date" id="taskDueDate" required />
         <button type="submit">Add Task</button>
     </form>
